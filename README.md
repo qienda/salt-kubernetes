@@ -20,8 +20,6 @@
 ## 技术交流QQ群（加群请备注来源于Github）：
 - Docker&Kubernetes：796163694
 
-## 案例架构图
-![架构图](https://github.com/sky-daiji/salt-k8s/blob/master/images/logo.png)
 
 ## 0.系统初始化(必备)
 1. 设置主机名！！！
