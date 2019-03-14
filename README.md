@@ -304,4 +304,4 @@ k8s-node3:
 
 ## 如果你觉得这个项目不错，欢迎各位打赏，你的打赏是对我们的认可，是我们的动力。
 
-![微信](https://github.com/sky-daiji/salt-k8s/blob/master/images/weixin.png)
+![微信](https://github.com/sky-daiji/salt-kubernetes/blob/master/images/weixin.png)
