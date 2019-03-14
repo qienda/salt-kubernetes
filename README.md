@@ -75,7 +75,7 @@ k8s-node2
 
 2.2 获取本项目代码，并放置在/srv目录
 ```
-[root@k8s-master ~]# git clone https://github.com/sky-daiji/salt-k8s.git
+[root@k8s-master ~]# git clone https://github.com/sky-daiji/salt-kubernetes.git
 [root@k8s-master ~]# cd salt-kubernetes/
 [root@k8s-master ~]# mv * /srv/
 [root@k8s-master srv]# /bin/cp /srv/roster /etc/salt/roster
