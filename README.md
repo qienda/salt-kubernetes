@@ -255,15 +255,6 @@ PING 10.2.24.2 (10.2.24.2) 56(84) bytes of data.
 1 packets transmitted, 1 received, 0% packet loss, time 0ms
 rtt min/avg/max/mdev = 22.960/22.960/22.960/0.000 ms
 
-
-确认服务能够执行 logs exec 等指令;kubectl logs -f net-test-5767cb94df-n9lvk,此时会出现如下报错:
-[root@k8s-master ~]# kubectl logs net-test-5767cb94df-n9lvk
-error: You must be logged in to the server (the server has asked for the client to provide credentials ( pods/log net-test-5767cb94df-n9lvk))
-
-
-由于上述权限问题，我们必需创建一个 apiserver-to-kubelet-rbac.yml 来定义权限，以供我们执行 logs、exec 等指令;
-[root@k8s-master ~]# kubectl apply -f /srv/addons/apiserver-to-kubelet-rbac.yml
-然后执行kubctl logs验证是否成功.
 ```
 ## 8.如何新增Kubernetes节点
 
