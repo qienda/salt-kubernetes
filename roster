@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+#******************************************
+# Author:       skymyyang
+# Email:        yang-li@live.cn
+# Organization: skymyyyang.github.io
+# Description:  Salt SSH Roster
+#******************************************
+
+k8s-master:
+  host: 172.16.40.80
+  user: root
+  priv: /root/.ssh/id_rsa
+  minion_opts:
+    grains:
+      k8s-role: master
+      etcd-role: node
+      etcd-name: etcd-node1
+      
+k8s-node1:
+  host: 172.16.40.81
+  user: root
+  priv: /root/.ssh/id_rsa
+  minion_opts:
+    grains:
+      k8s-role: master
+      etcd-role: node
+      etcd-name: etcd-node2
+
+k8s-node2:
+  host: 172.16.40.82
+  user: root
+  priv: /root/.ssh/id_rsa
+  minion_opts:
+    grains:
+      k8s-role: master
+      etcd-role: node
+      etcd-name: etcd-node3
