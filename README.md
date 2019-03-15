@@ -92,7 +92,7 @@ Kubernetes二进制文件下载地址： https://pan.baidu.com/s/1A2cb3fI7fu3r3o
 [root@k8s-master k8s]# cd k8s-v1.13.3-auto/
 [root@k8s-master k8s-v1.13.3-auto]# mv files/ /srv/salt/k8s/
 [root@k8s-master k8s-v1.13.3-auto]# cd ..
-[root@k8s-master k8s]# rm -f k8s-v1.13.3-auto*
+[root@k8s-master k8s]# rm -rf k8s-v1.13.3-auto*
 [root@k8s-master k8s]# ls -l files/
 total 0
 drwxr-xr-x. 2 root root  94 Jun  3 19:12 cfssl-1.2
