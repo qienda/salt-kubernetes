@@ -59,7 +59,7 @@ spec:
       hostNetwork: true
       containers:
         - name: nginx-ingress-controller
-          image: quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.17.0
+          image: ibmcom/nginx-ingress-controller:0.21.0
           args:
             - /nginx-ingress-controller
             - --default-backend-service=$(POD_NAMESPACE)/default-http-backend
