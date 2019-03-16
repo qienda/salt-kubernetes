@@ -284,7 +284,8 @@ k8s-node3:
         <td><a href="docs/dashboard.md">2.Dashboard部署</a></td>
         <td><a href="docs/heapster.md">3.Heapster部署</a></td>
         <td><a href="docs/metrics-server.md">4.metrics-server部署</a></td>
-        <td><a href="docs/ingress.md">5.Ingress部署</a></td>
+        <td><a href="docs/ingress-nginx-Deployment.md">5.Ingress部署-Deployment</a></td>
+        <td><a href="docs/ingress-nginx-DaemonSet.md">6.Ingress部署-DaemonSet</a></td>
     </tr>
 </table>
 
