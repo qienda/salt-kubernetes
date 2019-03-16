@@ -54,8 +54,7 @@ v1beta1.metrics.k8s.io                  kube-system/metrics-server   True       
 
 [root@k8s-master ~]# kubectl top node
 NAME          CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
-k8s-master   128m         6%     884Mi           47%       
-linux-node2   133m         6%     1032Mi          55%       
-linux-node3   184m         9%     983Mi           52%       
-linux-node4   29m          2%     343Mi           39%
+k8s-master    128m         6%     884Mi           47%       
+k8s-node1     133m         6%     1032Mi          55%       
+k8s-node2     184m         9%     983Mi           52%       
 ```
