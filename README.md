@@ -289,7 +289,12 @@ k8s-node3:
     </tr>
 </table>
 
+为Master节点打上污点，让POD尽可能的不要调度到Master节点上。
+关于污点的说明大家可自行百度。
 
+```
+kubectl taint node k8s-master node-role.kubernetes.io/master=k8s-master:PreferNoSchedule
+```
 
 注意：不要相信自己，要相信电脑！！！
 
