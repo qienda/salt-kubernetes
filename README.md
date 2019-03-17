@@ -5,7 +5,7 @@
 - 测试通过系统：CentOS 7.6
 - salt-ssh:     2019.2.0
 - Kubernetes：  v1.13.3
-- Etcd:         v3.3.10
+- Etcd:         v3.3.12
 - Docker:       18.9.3-ce
 - Flannel：     v0.10.0
 - CNI-Plugins： v0.7.4
@@ -27,7 +27,7 @@
 [root@k8s-master ~]# cat /etc/hostname
 k8s-master
 
-[root@k8s-node2 ~]# cat /etc/hostname
+[root@k8s-node1 ~]# cat /etc/hostname
 k8s-node1
 
 [root@k8s-node2 ~]# cat /etc/hostname
