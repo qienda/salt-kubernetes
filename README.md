@@ -67,9 +67,6 @@ k8s-node2
 
 2.1 安装Salt SSH（注意：老版本的Salt SSH不支持Roster定义Grains，需要2017.7.4以上版本）
 ```
-[root@k8s-master ~]# yum install https://mirrors.aliyun.com/epel/epel-release-latest-7.noarch.rpm
-[root@k8s-master ~]# yum install https://mirrors.aliyun.com/saltstack/yum/redhat/salt-repo-latest.el7.noarch.rpm
-[root@k8s-master ~]# sed -i "s/repo.saltstack.com/mirrors.aliyun.com\/saltstack/g" /etc/yum.repos.d/salt-latest.repo
 [root@k8s-master ~]# yum install -y salt-ssh git unzip
 ```
 
