@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 #******************************************
-# Author:       Jason Zhao
-# Email:        shundong.zhao@linuxhot.com
-# Organization: http://www.devopsedu.com/
+# Author:       sky-daiji
+# Email:        sky-daiji@qq.com
+# Organization: http://www.cnblogs.com/skymydaiji/
 # Description:  SaltStack Top File
 #******************************************
 
@@ -16,4 +16,3 @@ base:
   'etcd-role:node':
     - match: grain
     - k8s.etcd
-

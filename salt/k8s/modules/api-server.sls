@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 #******************************************
-# Author:       skymyyang
-# Email:        yang-li@live.cn
-# Organization: skymyyyang.github.io
+# Author:       sky-daiji
+# Email:        sky-daiji@qq.com
+# Organization: http://www.cnblogs.com/skymydaiji/
 # Description:  Kubernetes API Server
 #******************************************
 
 {% set k8s_version = "k8s-v1.13.3" %}
 
 kube-api-server-csr-json:
-  file.managed:
+  file.managed:sky-daiji@qq.com
     - name: /opt/kubernetes/ssl/kubernetes-csr.json
     - source: salt://k8s/templates/kube-api-server/kubernetes-csr.json.template
     - user: root

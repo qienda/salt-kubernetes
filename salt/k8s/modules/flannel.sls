@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 #******************************************
-# Author:       Jason Zhao
-# Email:        shundong.zhao@linuxhot.com
-# Organization: http://www.devopsedu.com/
+# Author:       sky-daiji
+# Email:        sky-daiji@qq.com
+# Organization: http://www.cnblogs.com/skymydaiji/
 # Description:  Flannel
 #******************************************
 {% set flannel_version = "flannel-v0.10.0-linux-amd64" %}

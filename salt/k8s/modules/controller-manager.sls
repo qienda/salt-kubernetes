@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 #********************************************
 # Author:       sky-daiji
-# Email:        2461543136@qq.com
-# Organization: skymyyyang.github.io
+# Email:        sky-daiji@qq.com
+# Organization: http://www.cnblogs.com/skymydaiji/
 # Description:  Kubernetes Controller Manager
 #********************************************
 {% set k8s_version = "k8s-v1.13.3" %}

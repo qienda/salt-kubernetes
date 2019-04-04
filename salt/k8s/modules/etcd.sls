@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 #******************************************
-# Author:       skymyyang
-# Email:        yang-li@live.cn
-# Organization: skymyyyang.github.io
+# Author:       sky-daiji
+# Email:        sky-daiji@qq.com
+# Organization: http://www.cnblogs.com/skymydaiji/
 # Description:  ETCD Cluster
 #******************************************
 {% set etcd_version = "etcd-v3.3.12-linux-amd64" %}
