@@ -5,7 +5,7 @@
 # Organization: http://www.cnblogs.com/skymydaiji/
 # Description:  Flannel
 #******************************************
-{% set flannel_version = "flannel-v0.10.0-linux-amd64" %}
+{% set flannel_version = "flannel-v0.11.0-linux-amd64" %}
 
 
 flannel-key:

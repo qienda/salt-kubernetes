@@ -9,7 +9,7 @@
 {% set k8s_version = "k8s-v1.13.3" %}
 
 kube-api-server-csr-json:
-  file.managed:sky-daiji@qq.com
+  file.managed:
     - name: /opt/kubernetes/ssl/kubernetes-csr.json
     - source: salt://k8s/templates/kube-api-server/kubernetes-csr.json.template
     - user: root
