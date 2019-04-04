@@ -184,7 +184,7 @@ POD_CIDR: "10.2.0.0/16"
 CLUSTER_DNS_DOMAIN: "cluster.local."
 
 #设置网卡名称
-VIP_IF: "ens32"
+VIP_IF: "{{ grains['ip4_interfaces'].keys()[1] }}"
 
 
 ```
