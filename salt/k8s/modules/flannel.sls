@@ -47,6 +47,7 @@ flannel-etcd:
         ETCD_ENDPOINTS: {{ pillar['ETCD_ENDPOINTS'] }}
         POD_CIDR: {{ pillar['POD_CIDR'] }}
         FLANNEL_ETCD_PREFIX: {{ pillar['FLANNEL_ETCD_PREFIX'] }}
+        VIP_IF: {{ pillar['VIP_IF'] }}
   cmd.run:
     - name: /bin/bash /opt/kubernetes/bin/flannel-etcd.sh
 #flannel-config:
